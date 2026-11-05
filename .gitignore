@@ -1,0 +1,30 @@
+# core 源码软链（由构建脚本创建，指向 vlc_core-3.6.5）
+libvlcjni/vlc
+
+# Gradle 发行包与缓存
+gradle-8.13/
+gradle-8.13-bin.zip
+.gradle/
+libvlcjni/.gradle/
+build/
+libvlcjni/build/
+libvlcjni/libvlc/build/
+
+# 构建产物
+out/
+libvlcjni/libvlc/jni/libs/
+libvlcjni/libvlc/jni/obj/
+*.aar
+*.so
+*.lo
+*.o
+
+# 本地配置
+local.properties
+*.rej
+*.orig
+
+# IDE
+.idea/
+*.iml
+.vscode/
