@@ -24,6 +24,11 @@ local.properties
 *.rej
 *.orig
 
+# 临时备份
+*.bak
+*.bak2
+*.bak.*
+
 # IDE
 .idea/
 *.iml
