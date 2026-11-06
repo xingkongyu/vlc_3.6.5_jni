@@ -1527,7 +1527,7 @@ Java_org_videolan_libvlc_MediaPlayer_nativeSetSubtitleBitmapListener(
     jobject gref = (*env)->NewGlobalRef(env, listener);
     jclass clazz = (*env)->GetObjectClass(env, listener);
     jmethodID mid = (*env)->GetMethodID(env, clazz, "onSubtitleBitmaps",
-            "([[B[IIIIJJ)V");
+            "([[B[IIIJJ)V");
     (*env)->DeleteLocalRef(env, clazz);
     if (!gref || !mid) {
         if ((*env)->ExceptionCheck(env))
